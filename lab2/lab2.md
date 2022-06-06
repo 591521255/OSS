@@ -16,3 +16,4 @@ PullReq link: https://github.com/591521255/PullReq
 
 git diff: ![diff_Screenshot 2022-06-06 184908](https://user-images.githubusercontent.com/95945800/172263151-4e466631-f108-4f35-8641-2d5c3bab84a3.png)
 git tag -l: ![git_tag_Screenshot 2022-06-06 190103](https://user-images.githubusercontent.com/95945800/172263194-db8ef75d-8ad0-4c0f-a62d-fcd898e5dae1.png)
+Project ideas link: https://github.com/PotatoPalooza/OSSProjectIdeas/blob/master/Summer2022/ProjectIdeas1.md
