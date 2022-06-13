@@ -33,8 +33,8 @@ The current branches : master, dev
 
 Alpaca: https://github.com/rpi-alpaca/alpaca
 
-# of contributors: 15
-# of lines of code: 7205
+nums of contributors: 15
+nums of lines of code: 7205
 first commit: https://github.com/rpi-alpaca/alpaca/commit/a8b820a9c12f26ee5861a3cd511dd36805705468
 latest commit: https://github.com/rpi-alpaca/alpaca/commit/550d1c4f06c0697f5c9e638a98cce34bb2fa5fee
 current branches: master, color_test, LogicGate
@@ -45,3 +45,15 @@ Gitstats
 ![FloatingTwitch_gitstats_Screenshot 2022-06-13 021144](https://user-images.githubusercontent.com/95945800/173299603-5d2b53ff-43d5-4c9f-a1bf-c771b3271333.png)
 ![alpaca_gitstats_Screenshot 2022-06-13 020641](https://user-images.githubusercontent.com/95945800/173299644-00900a51-529a-4d23-bed2-838afe2dd745.png)
 
+The total number line of codes is showing after the deleted code in gitstats. So mostly the lines is less in gitstats compare to git log. And the total numbers of contributors are more in gitstats than git log. The gitstats doesn't show all branch names. The gitstats also shows total files numbers and age of the repo.
+
+Gource
+
+Animate.css
+![animate_gource_Screenshot 2022-06-13 025525](https://user-images.githubusercontent.com/95945800/173301918-6bb84f97-23a8-4999-81de-963a0c8da16d.png)
+CodeBuddy
+![codebuddy_gource_Screenshot 2022-06-13 025714](https://user-images.githubusercontent.com/95945800/173301973-10effe17-2775-402e-931f-a2625321ed82.png)
+FloatingTwitch
+![floatingtwitch_gource_Screenshot 2022-06-13 030057](https://user-images.githubusercontent.com/95945800/173302019-969bc7db-3c90-413d-b46c-30af5b1362a7.png)
+Alpaca
+![alpaca_gource_Screenshot 2022-06-13 030158](https://user-images.githubusercontent.com/95945800/173302089-12e132b4-a190-4698-81eb-8aa7cc193c47.png)
