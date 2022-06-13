@@ -6,10 +6,9 @@ make latexpdf successful
 ![Success_Make_Latex_Screenshot 2022-06-10 123045](https://user-images.githubusercontent.com/95945800/173298786-4a6fe08f-8382-49ff-a5fe-57eef3df6da3.png)
 Part 2 - Community
 
-Animate.css: https://github.com/colegregory/animate.css
-
-65 Contributors
-3916 lines of code
+Animate.css: https://github.com/colegregory/animate.css<br>
+65 Contributors<br>
+3916 lines of code<br>
 First commit: https://github.com/animate-css/animate.css/commit/8a2380e7de3a083a4e453e7f46f29d9d10f44d43
 Last commit: https://github.com/animate-css/animate.css/commit/61d13bad4b0bd42b2f3b3d6951872135df896e72
 Branches: master, sass, gh-pages, de-dist-directory
