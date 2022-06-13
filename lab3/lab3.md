@@ -6,16 +6,14 @@ make latexpdf successful
 ![Success_Make_Latex_Screenshot 2022-06-10 123045](https://user-images.githubusercontent.com/95945800/173298786-4a6fe08f-8382-49ff-a5fe-57eef3df6da3.png)
 Part 2 - Community
 
-Animate.css:
-
+Animate.css: https://github.com/colegregory/animate.css
 65 Contributors
 3916 lines of code
 First commit: https://github.com/animate-css/animate.css/commit/8a2380e7de3a083a4e453e7f46f29d9d10f44d43
 Last commit: https://github.com/animate-css/animate.css/commit/61d13bad4b0bd42b2f3b3d6951872135df896e72
 Branches: master, sass, gh-pages, de-dist-directory
 
-CodeBuddy:
-
+CodeBuddy: https://github.com/591521255/CodeBuddy
 3 Contributors
 1336 lines of code
 First commit: https://github.com/didioj/CodeBuddy/commit/11ffbb404a02fe65794baeb56bc38734a64138ac
@@ -23,7 +21,6 @@ Last commit: https://github.com/didioj/CodeBuddy/commit/ef224c682f118c3257cbd7e8
 Branches: master, add-code-of-conduct-1
 
 Floating Twitch: https://github.com/fcusano9/floatingtwitch
-
 The number of contributors: 1
 Number of lines of code: 300
 The first commit: [fcusano9 committed on Sep 4, 2018  ](https://github.com/fcusano9/FloatingTwitch/commit/8ae1d065a505a3baeb4bc77eeb61c3f474c81270)
@@ -32,7 +29,6 @@ EDIT:
 The current branches : master, dev
 
 Alpaca: https://github.com/rpi-alpaca/alpaca
-
 nums of contributors: 15
 nums of lines of code: 7205
 first commit: https://github.com/rpi-alpaca/alpaca/commit/a8b820a9c12f26ee5861a3cd511dd36805705468
