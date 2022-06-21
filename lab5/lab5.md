@@ -345,6 +345,7 @@ do_test(Tutorial 7 "7 is 2.645")
 do_test(Tutorial 25 "25 is 5")
 do_test(Tutorial -25 "-25 is (-nan|nan|0)")
 do_test(Tutorial 0.0001 "0.0001 is 0.01")
+
 ```
 MathFunctions/CMakeLists.txt
 ```
@@ -357,19 +358,21 @@ target_include_directories(MathFunctions
           )
 
 # does this system provide the log and exp functions?
-include(CheckSymbolExists)
-check_symbol_exists(log "math.h" HAVE_LOG)
-check_symbol_exists(exp "math.h" HAVE_EXP)
-if(NOT (HAVE_LOG AND HAVE_EXP))
-  unset(HAVE_LOG CACHE)
-  unset(HAVE_EXP CACHE)
-  set(CMAKE_REQUIRED_LIBRARIES "m")
-  check_symbol_exists(log "math.h" HAVE_LOG)
-  check_symbol_exists(exp "math.h" HAVE_EXP)
-  if(HAVE_LOG AND HAVE_EXP)
-    target_link_libraries(MathFunctions PRIVATE m)
-  endif()
-endif()
+include(CheckCXXSourceCompiles)
+check_cxx_source_compiles("
+  #include <cmath>
+  int main() {
+    std::log(1.0);
+    return 0;
+  }
+" HAVE_LOG)
+check_cxx_source_compiles("
+  #include <cmath>
+  int main() {
+    std::exp(1.0);
+    return 0;
+  }
+" HAVE_EXP)
 
 if(HAVE_LOG AND HAVE_EXP)
   target_compile_definitions(MathFunctions
@@ -379,7 +382,11 @@ endif()
 # install rules
 install(TARGETS MathFunctions DESTINATION lib)
 install(FILES MathFunctions.h DESTINATION include)
+
 ```
+
+
+
 Running Tutorial Code:\
 ![Step5_Screenshot 2022-06-20 233344](https://user-images.githubusercontent.com/95945800/174712999-93cf87d0-c46b-4e0c-89e6-5cd7468c6fa7.png)
 
